@@ -18,33 +18,51 @@
       <h3>You <em>know</em> you want to.</h3>
       <form action="/exmaple" method="post">
         <div class="form-container">
-            <h3>Let's do this!</h3>
-            <div class="form-row">
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="firstName" id="first-name" />
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="lastName" id="last-Name" />
-              </div>
-            <div class="form-row">
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" />
-                <label for="phone-number">PHONE NUMBER</labe>
-                <input type="number" name="phoneNumber" id="phone-number" />
+          <h3>Let's do this!</h3>
+          <div class="form-row">
+            <div class="form-cell">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="firstName" id="first-name" />
             </div>
-            <div class="form-row">
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" />
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirmPassword" id="confirm-password" />
+            <div class="form-cell">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="lastName" id="last-Name" />
             </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-cell">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="form-cell">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="number" name="phoneNumber" id="phone-number" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-cell">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="form-cell">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirmPassword"
+                id="confirm-password"
+              />
+            </div>
+          </div>
         </div>
 
-        <button type="submit">Create Account</button>
+        <div class="btn-submit">
+          <button type="submit">Create Account</button>
+        </div>
       </form>
 
       <p>Already have an account? <a href="">Log in</a></p>
-
-
     </div>
   </body>
 </html>
