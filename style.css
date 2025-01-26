@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.background {
+  width: 35%;
+  background: url("images/photo-1585202900225-6d3ac20a6962.avif");
+}
+
+.container {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 3rem;
+}
+
+.form-row {
+  margin: 1.5rem 0;
+}
