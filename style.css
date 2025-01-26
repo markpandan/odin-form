@@ -1,6 +1,7 @@
 :root {
   --form-padding-lr: 3rem; /* left-right padding value */
   --form-padding-tb: 1rem; /* top-bottom padding value */
+  --accent-color: #596d48;
 }
 
 * {
@@ -88,6 +89,14 @@ input:invalid {
 }
 
 button[type="submit"] {
-  background-color: #596d48;
+  background-color: var(--accent-color);
   color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #596d48;
 }
